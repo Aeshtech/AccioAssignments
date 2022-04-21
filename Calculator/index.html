@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3f0c41fe0c.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/j6rS8yQ/favicon-calc-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center><div id="heading"><b>+  - Basic Calculator *  / </b></div></center>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="button" onclick="btnClicked('CLR')">CLR</div>
+            <div class="button" onclick="btnClicked('DEL')"><i class="fa-solid fa-delete-left"></i></div>
+            <div class="button" onclick="btnClicked('%')">%</div>
+            <div class="button" onclick="btnClicked('/')">/</div>
+            <div class="button" onclick="btnClicked(7)">7</div>
+            <div class="button" onclick="btnClicked(8)">8</div>
+            <div class="button" onclick="btnClicked(9)">9</div>
+            <div class="button" onclick="btnClicked('*')">*</div>
+            <div class="button" onclick="btnClicked(4)">4</div>
+            <div class="button" onclick="btnClicked(5)">5</div>
+            <div class="button" onclick="btnClicked(6)">6</div>
+            <div class="button" onclick="btnClicked('-')">-</div>
+            <div class="button" onclick="btnClicked(1)">1</div>
+            <div class="button" onclick="btnClicked(2)">2</div>
+            <div class="button" onclick="btnClicked(3)">3</div>
+            <div class="button" onclick="btnClicked('+')">+</div>
+            <div class="button" onclick="btnClicked('0')">0</div>
+            <div class="button" onclick="btnClicked('00')">00</div>
+            <div class="button" onclick="btnClicked('.')">.</div>
+            <div class="button" onclick="btnClicked('=')">=</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
