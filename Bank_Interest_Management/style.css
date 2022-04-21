@@ -1,0 +1,83 @@
+
+table{
+        background-color: lightsalmon;
+        border: 10px solid ;
+        padding: 10px;
+        border-style: initial;
+        border-radius: 20px;
+        border-color: purple;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 9px 15px;
+}
+
+th{
+        padding: 10px;
+        text-decoration: underline;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 2px solid;
+        border-style: initial;
+        border-radius: 20px;
+       
+
+}
+
+td{
+        font-size: large;
+        padding: 10px;
+        border: 2px solid;
+        border-style: initial;
+        border-radius: 20px;
+        text-align: center;
+}
+
+td input{
+        width: 80%;
+        padding: 8px;
+}
+
+.btn{
+        margin: 10px;
+        background-color: cadetblue;
+        border-radius: 20px;
+        color: ghostwhite;
+        font-size: medium;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 5px solid wheat;
+        border-left: 50px;
+        border-right: 50px;
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        cursor: pointer;
+}
+
+#name{
+        background-color: yellow;
+        font-family: cursive;
+}
+
+#balance{
+        background-color:violet;
+}
+
+#int1,#int2,#int3,#int4,#int5{
+        background-color: lightblue;
+}
+#t1,#t2,#t3,#t4,#t5{
+        background-color:mediumspringgreen;
+}
+
+#bal1,#bal2,#bal3,#bal4,#bal5{
+        background-color: lightblue;
+     
+}
